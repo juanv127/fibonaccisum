@@ -1,0 +1,14 @@
+x = int(0)
+y = int(1)
+sum = 0
+
+for z in range(32):
+	a = x + y
+	x = (y)
+	if a % 2 == 0:
+		print(str(a))
+		sum += a
+	y = (a)
+	
+print("")
+print(f"the sum is ${sum}.")
